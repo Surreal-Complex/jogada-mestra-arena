@@ -1,0 +1,25 @@
+{
+  "name": "jogada-mestra-arena",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate-artifact.mjs",
+    "dev": "npm run build && wrangler d1 migrations apply jogada-mestra-arena-db --local && wrangler dev",
+    "test": "node --test tests/*.test.mjs",
+    "db:generate": "drizzle-kit generate",
+    "db:local": "wrangler d1 migrations apply jogada-mestra-arena-db --local",
+    "db:remote": "node scripts/check-config.mjs && wrangler d1 migrations apply jogada-mestra-arena-db --remote",
+    "deploy": "node scripts/check-config.mjs && wrangler deploy",
+    "deploy:all": "npm run build && npm run db:remote && npm run deploy"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.10",
+    "drizzle-orm": "0.45.2",
+    "wrangler": "4.92.0"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
