@@ -51,3 +51,8 @@ Com as dependências instaladas, `npm run dev` prepara o banco **local** e abre 
 ## Autoria
 
 Concepção e organização: **Peterson L. N. Silva**, 2026. Desenvolvimento com apoio do **ChatGPT (OpenAI), por meio do Codex**. Acesso educacional gratuito; demais permissões descritas em [TERMOS_DE_USO.md](TERMOS_DE_USO.md).
+
+
+## Painel do professor
+
+Esta versão acrescenta atividades por código, apelidos de participantes, acompanhamento de tabuleiro, histórico completo das salas vinculadas e entrega dos cadernos. Veja **[PAINEL_PROFESSOR.md](PAINEL_PROFESSOR.md)** para ativar as tabelas e configurar o segredo `TEACHER_PASSWORD` na Cloudflare. A senha não faz parte do código. Até a ativação, partidas livres continuam disponíveis.

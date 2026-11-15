@@ -13,3 +13,8 @@ O conteúdo escrito pelos estudantes não é abrangido pelas permissões relativ
 ## Apoio de inteligência artificial
 
 O site foi desenvolvido com apoio do ChatGPT (OpenAI), por meio do Codex, a partir de solicitações e orientações do responsável pelo projeto. A IA auxiliou na criação e edição do código, interface, adaptações digitais, redação inicial das regras e explicações e testes. Essa identificação não implica endosso, certificação externa ou autoria humana atribuída à ferramenta. O uso educacional requer mediação do professor.
+
+
+## Atividades acompanhadas
+
+Em partidas vinculadas a uma atividade, o aluno informa um apelido ou primeiro nome e recebe aviso de que o professor poderá consultar os apelidos, jogadas, resultados e cadernos entregues. O envio do caderno depende de ação explícita do participante. As partidas livres e os textos não enviados permanecem fora da listagem de atividades do professor. Os registros enviados permanecem no banco até remoção pelo responsável; o encerramento do convite após 24 horas não os exclui automaticamente. Não são solicitados e-mail ou cadastro de aluno.
