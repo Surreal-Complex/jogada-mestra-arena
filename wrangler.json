@@ -1,6 +1,14 @@
 {
-  "binding": "DB",
-  "database_name": "jogada-mestra-arena-db",
-  "database_id": "eb2ff4770db03fdda5e8040e9506411e",
-  "migrations_dir": "drizzle"
+  "name": "jogada-mestra-arena",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jogada-mestra-arena-db",
+      "database_id": "62677920-6f7d-401d-af26-5b172f243175",
+      "migrations_dir": "drizzle"
+    }
+  ]
 }
