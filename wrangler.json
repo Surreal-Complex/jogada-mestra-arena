@@ -1,15 +1,6 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "jogada-mestra-arena",
-  "main": "worker/index.js",
-  "compatibility_date": "2026-10-01",
-  "workers_dev": true,
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "jogada-mestra-arena-db",
-      "database_id": "00000000-0000-0000-0000-000000000000",
-      "migrations_dir": "drizzle"
-    }
-  ]
+  "binding": "DB",
+  "database_name": "jogada-mestra-arena-db",
+  "database_id": "eb2ff4770db03fdda5e8040e9506411e",
+  "migrations_dir": "drizzle"
 }
